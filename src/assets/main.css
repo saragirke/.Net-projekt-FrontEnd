@@ -1,0 +1,38 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), #f8eedb);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 1%;
+  }
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.skip {
+
+  height: 10px;
+  left: 45%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}   
+
+.skip:focus:focus {
+  transform: translateY(0%);
+  background: #ffffff;  
+  font-size: 18px;
+}
