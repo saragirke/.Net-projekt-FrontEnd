@@ -117,7 +117,7 @@ a:link {
   line-height: 70px;
   height: 75px;
   text-decoration: none;
-  color: #aa7467;
+  color: black;
   font-weight:500;
 }
 
